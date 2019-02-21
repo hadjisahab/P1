@@ -1,0 +1,30 @@
+body {
+	  background-color: lightblue;
+  }
+
+  h1 {
+	    color: navy;
+	      margin-left: 20px;
+text-align: center;
+      }
+h2 { text-align: center;
+font-size: 12pt; 
+font-family: "Times New Roman", Arial, serif;}
+
+
+
+  #  p {
+#	      font-family: "Times New Roman", Arial, serif;
+#      }
+
+
+	  .center {
+		    display: block;
+		      margin-left: auto;
+		        margin-right: auto;
+			  width: 50%;
+		  }
+img.resize {
+	    width:250px; 
+	        height: auto;
+	}

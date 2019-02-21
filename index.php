@@ -1,30 +1,32 @@
+<?php
+
+       $file= "quotations.txt";
+       $quotations = file($file);
+       $rand_quote = rand(0, count($quotations)-1);
+?>
+
 <!DOCTYPE html>
-<html>
+<html lang='en'>
 <head>
 
-	<title>John Gosier</title>
+	<title>Khurram Khan</title>
 	<meta charset="utf-8">
-
+<link rel="stylesheet" type="text/css" href="Project1.css">
 
 </head>
 <body>
 
-	<div class="container">
-
 		<h1>Muhammad Khurram Khan</h1>
 
-		<img src='images/KK.jpg' alt='Khurram Khan'>
+	<img class="center" src='images/KK.jpg' alt='Khurram Khan'>
 
-		<h2>About Me</h2>
-		<p>
-			My name is Muhammad Khurram Khan. You can call me Khurram. I'm a Lead Application Engineer in a tech company. 
-		</p>
+		<h1>About Me</h1>
+	<h2> My name is Muhammad Khurram Khan. You can call me Khurram. I'm a Lead Application Engineer in a tech company. </h2> 
 
-		<h2>Random Quote</h2>
-		<blockquote>
-			To find yourself, think for yourself. -Socrates		</blockquote>
 
-	</div>
+		<h1>Random Quote</h1>
+
+<h2>  <?php echo $quotations[$rand_quote]; ?> </h2>
 
 
 </body>
