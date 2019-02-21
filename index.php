@@ -18,7 +18,7 @@
 
 		<h1>Muhammad Khurram Khan</h1>
 
-	<img class="center" src='/images/KK.jpg' alt='Khurram Khan'>
+	<img class="center" src='/images/KK.jpg.jpg' alt='Khurram Khan'>
 
 		<h1>About Me</h1>
 	<h2> My name is Muhammad Khurram Khan. You can call me Khurram. I'm a Lead Application Engineer in a tech company. </h2> 
