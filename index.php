@@ -7,27 +7,28 @@
 
 <!DOCTYPE html>
 <html lang='en'>
-<head>
+
+	<head>
 
 	<title>Khurram Khan</title>
 	<meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="Project1.css">
+	<link rel="stylesheet" type="text/css" href="Project1.css">
 
-</head>
-<body>
+	</head>
+		<body>
 
-		<h1>Muhammad Khurram Khan</h1>
+			<h1>Muhammad Khurram Khan</h1>
 
-	<img class="center" src='/images/KK.jpg.jpg' alt='Khurram Khan'>
+			<img class="center" src='/images/KK.jpg.jpg' alt='Khurram Khan'>
 
-		<h1>About Me</h1>
-	<h2> My name is Muhammad Khurram Khan. You can call me Khurram. I'm a Lead Application Engineer in a tech company. </h2> 
-
-
-		<h1>Random Quote</h1>
-
-<h2>  <?php echo $quotations[$rand_quote]; ?> </h2>
+			<h1>About Me</h1>
+			<h2> My name is Muhammad Khurram Khan. You can call me Khurram. I'm a Lead Application Engineer in a tech company. </h2> 
 
 
-</body>
+			<h1>Random Quote</h1>
+
+			<h2>  <?php echo $quotations[$rand_quote]; ?> </h2>
+
+
+		</body>
 </html>
